@@ -2,7 +2,7 @@
   "name": "nutanix",
   "version": "0.1.0",
   "private": true,
-  "home": "https://github.com/Julio-Antony/ncse-dump.github.io.git",
+  "home": "https://julio-antony.github.io/ncse-dump.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
