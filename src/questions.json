@@ -1,0 +1,1367 @@
+[{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34101"
+  },
+  "text": "A prospective customer wants to refresh their current on-premises infrastructure that. consists of 4 ESXi hosts. each with 20 cores and 512GB of RAM, and 1.2PB of usable SAN storage They have recently renewed their ESXi licensing, and all data must remain within their physical network. They are concerned that a hyperconverged solution will not meet their storage requirements without requiring a significant increase in the number of required ESXi hosts and licenses. Which Nutanix capability should the systems engineer review with the customer?",
+  "options": [
+    "A. Position storage-only nodes",
+    "B. Replace the hypervisor with AHV",
+    "C. Build Cluster on a public cloud",
+    "D. Use Volumes to provide storage"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34102"
+  },
+  "text": "An existing customer wants to upgrade their non-AHV hypervisor to the most recent version. The customer needs confirm that the hypervisor is supported on their AOS version. Where on the Support Portal is this information located?",
+  "options": [
+    "A. Field Advisories",
+    "B. Compatibility Matrix",
+    "C. EOL, Information",
+    "D. Upgrade Paths"
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34103"
+  },
+  "text": "A systems engineer sizes an environment based on the customer's requirement of N+2 resiliency for the entire cluster.In which two way could the configuration be changed to meet the customer's requirements' (Choose two)",
+  "options": [
+    "A. Increase the number of Nodes",
+    "B. Increase the CPU capacity per Node",
+    "C. Increase the SSD capacity per Node",
+    "D. Increase the RAM capacity per Node"
+  ],
+  "answers": "\nCorrect Answer: A,D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34104"
+  },
+  "text": "A prospective customer wants to refresh their current on-premises infrastructure that. consists of 4 ESXi hosts.each with 20 cores and 512GB of RAM, and 1.2PB of usable SAN storage They have recently renewed their ESXi licensing, and all data must remain within their physical network. They are concerned that a hyperconverged solution will not meet their storage requirements without requiring a significant increase in the number of required ESXi hosts and licenses. Which Nutanix capability should the systems engineer review with the customer?",
+  "options": [
+    "A. Build Cluster on a public cloud",
+    "B. Replace the hypervisor with AHV",
+    "C. Use Volumes to provide storage",
+    "D. Position storage-only nodes"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34105"
+  },
+  "text": "A prospect has 8500GB of capacity provisioned for a non-production VMware cluster. As Part of migrating to Nutanix. the prospect agrees to convert any thick provisioned disks to thin provisioned disks. Based on additional dat a. the total active working set for the cluster has been datermined to be 1TB. When entering the Raw input workload into Sizer, what is the minimum amount of HDD Capacity required for the workload? ??",
+  "options": [
+    "A. 7.5TIB",
+    "B. 3.0TiB",
+    "C. 4.0TiB",
+    "D. 3.5TiB"
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34106"
+  },
+  "text": "A prospect facing an upcoming Vmware ELA renewal has a management directive to move to the public cloud due to perceived cost savings. Their virtualization team is currently struggling with refactoring applications for AWS. As a result, the virtualization team is pushing to evaluate VXRail and renew their VMware ELA.Which two aspects of Nutanix shoud the SE Highlight? (Choose two)",
+  "options": [
+    "A. Nutanix AHV",
+    "B. Cloud Connect",
+    "C. Nutanix Calm",
+    "D. Multi-cluster Management"
+  ],
+  "answers": "\nCorrect Answer: A,C\n5. Multi-hypervisor Support\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34107"
+  },
+  "text": "Refer to Exhibit.When entering a Raw Input workload into Sizer, what amount of RAM should be used for the entire workload?",
+  "options": [
+    "A. 64GB",
+    "B. 48GB",
+    "C. 42GB",
+    "D. 32GB"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34108"
+  },
+  "text": "Refer to Exhibit:An administrator logs in to Prism and sees the status shown in the exhibit within the Hardware Diagram section.What should the administrator do?",
+  "options": [
+    "A. Reseat all disk immediately. If this does not help, reseat the nodes.",
+    "B. Resolve all alerts and re-import the disks to make sure there is no service disruption.",
+    "C. Restart all CVMs for the cluster to check, confirm health and repartition and add the disks.",
+    "D. Check status of applications running on the cluster and call support."
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34109"
+  },
+  "text": "Which two targets are valid options when selecting a remote site to Prism? (Choose Two)",
+  "options": [
+    "A. XI Cloud Services",
+    "B. Tape Library",
+    "C. Cloud",
+    "D. Network attached storage",
+    "E. Physical Cluster"
+  ],
+  "answers": "\nCorrect Answer: C,E\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3410a"
+  },
+  "text": "what information can be gathered about the configuration of the VM storage?",
+  "options": [
+    "A. Majority of VMs are Thin Provisioned.",
+    "B. Total disk usage is high",
+    "C. Storage capacity is a problem",
+    "D. VMs have many disks."
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3410b"
+  },
+  "text": "A prospective customer indicates a requirement to replicate data offsite for a production workload.Which two questions should the systems engineer ask about the prospect's requirement? (Choose two)",
+  "options": [
+    "A. How much data needs to be replicated?",
+    "B. What compression ratio does your application require?",
+    "C. What are the retention requirements?",
+    "D. What OS will be depolyed on the server VMs?"
+  ],
+  "answers": "\nCorrect Answer: A,C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3410c"
+  },
+  "text": "A systems engineer providers a demo to a prospective customer who wants to be more hands on with Nutanix. Which two resources can the customer leverage without support from a systems engineer or Nutanix (Choose two)",
+  "options": [
+    "A. Foundation",
+    "B. Test Drive",
+    "C. Hosted POC(HPOC)",
+    "D. Community Edition (CE)"
+  ],
+  "answers": "\nCorrect Answer: B,D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3410d"
+  },
+  "text": "A systems engineer is creating a configuration in Sizerfor a customer that is building an app for use as an ebooks repository.The app requires the following twho workloads.1. 50 generic web server VMs, each with 2 vCPUs on a 4:1 vCPU:CPU ratio, 8GB of RAM, and 100GB of storage each2. A fileserver workload with 80TB of usable storage available, which contains mostly PDFs and pre- compressed data Any reduction in performance of the web servers must be avoided. After entering the workloads with default options, The Sizer oupouts the configuration shown in the exhibit.Which adjustment does the systems engineer need to make to the scenario to meet the performance requirements?",
+  "options": [
+    "A. Increse the vCPU:CPU ratio of the Webserver workload to 6:1",
+    "B. Switch to manual sizing and increase the RAM of the node configuration to 384GB.",
+    "C. Increse the RAM of the webserver workload to 10GB per VM.",
+    "D. Switch to manual and change the CPUs of the node configuratin to dual 10 core model."
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3410e"
+  },
+  "text": "An administrator has been alerted to a VM that has high I/O latency and wants to determine if there are any other factors, such as insufficient network or memory resources that correlate, as part of a troubleshooting process.Which type of chart should the administrator create to allow all relevant data to be easily exported to CSV for later analysis?",
+  "options": [
+    "A. A VM metric chart for each of the relevant metrics",
+    "B. A cluster metric chart for each of the relevant metrics",
+    "C. A cluster entity chart with each of the relevant metrics",
+    "D. A VM entity chart with each of the relevant metrics."
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3410f"
+  },
+  "text": "Which tool could be used to perform a sizing discovery in a general server virtualization environment running both VMware ESXi and Nutanix AHV?",
+  "options": [
+    "A. MAP",
+    "B. AWR",
+    "C. Collector",
+    "D. RVTools"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34110"
+  },
+  "text": "A prospect is seeking a Nutanix solution for a mission critical application that needs to sustain two simultaneous node outages and prefers that the cluster be able to fully rebuild both data and metadata in the event hardware issues.what is the minimum number of nodes required for the cluster?",
+  "options": [
+    "A. 4",
+    "B. 6",
+    "C. 7",
+    "D. 5"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34111"
+  },
+  "text": "An SE determines a POC is necessary for a prospect that has struggled with application downtime due to hypervisor and firmware upgrades that have exceeded planned maintenance windows. The prospect has also struggled with infrastructure resource planning for their growing development environment.Which two success criteria should the SE include? (Choose two)",
+  "options": [
+    "A. The solution provides automated upgrades without downtime or performance impact.",
+    "B. The solution provides integrated reporting on resource utilization trends.",
+    "C. The solution supports provisioning new storage in less than 15 minutes.",
+    "D. The solution can accelerate VM provisioning through REST APIs."
+  ],
+  "answers": "\nCorrect Answer: A,B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34112"
+  },
+  "text": "What are two things that the ADS service does for VMs within AHV? (Choose two.)",
+  "options": [
+    "A. Re-balance powered-on VMs evenly throughout the duster",
+    "B. Invoke workload movement it there is contention of resources",
+    "C. Invoke workload movement when there is no contention of resource",
+    "D. Balance VMs throughout the Cluster when the VM is first powered on"
+  ],
+  "answers": "\nCorrect Answer: C,D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34113"
+  },
+  "text": "A systems engineer is building a private cloud for internal developers that should include self-service and life cycle management for both kubernetes containers and SQL databases. which additional license feature must be purchased to provide this capability?",
+  "options": [
+    "A. Prism Pro",
+    "B. Nutanix Beam",
+    "C. Nutanix Flow",
+    "D. Nutanix Era"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34114"
+  },
+  "text": "A prospective customer asks about failure handing. They have heard all HCI is the same and want to know what happens if 2 nodes fail within 1 hour of each other. if there is capacity in the cluster, how will this failure scenario be handled ?",
+  "options": [
+    "A. Nutanix begins rebuilds immediately on a failure.",
+    "B. Every block of data is written to every node in a Nutanix cluster",
+    "C. Nutanix waits 60 minutes to recover from failures; data loss may occur",
+    "D. The Nutanix RAID array will leverage the hot spare."
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34115"
+  },
+  "text": "Which Prism Dashboard should be used to collect CPU/Memory and Disk I/O statistics over time?",
+  "options": [
+    "A. Alerts",
+    "B. Health",
+    "C. Analysis",
+    "D. Hardware"
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34116"
+  },
+  "text": "A customer asks for a quote for a hybrid cluster to run general purpose VMs and an ERP application. The customer has a VSAN ReadyNode quote already and is looking for a comparable Nutanix solution. They share the following bill of materials* 3 Hosts* 2x E5-2640v4 CPUs* 512GB RAM* 1 x 480GB SSD* 2 x 8TB HDD* 2 x 1GB NICWhat are two reasons to avoid sizing to match a competitor's bill of materials? (Choose two)",
+  "options": [
+    "A. There is no visibility to the actual customer requirements.",
+    "B. Sizing data from the competitor was shared.",
+    "C. The assumptions made in the competitor's sizing cannot be determined.",
+    "D. Nutanix Collector is better at capturing the metrics needed"
+  ],
+  "answers": "\nCorrect Answer: A,C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34117"
+  },
+  "text": "Which functionality allows workloads to continue to run on the host when as AOS upgrade occurs?",
+  "options": [
+    "A. Acropolis Dynamic Scheduler",
+    "B. Autonomous Extent Store",
+    "C. High Availability",
+    "D. CVM Autopathing"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34118"
+  },
+  "text": "A customer has two mission-critical applications and needs to have them backup up to a remote location. The remote location is connection using a leased line and has an average latency of 7 ms. Which Nutanix technology will provide the shortest PRO possible?",
+  "options": [
+    "A. Metro Availability",
+    "B. Leap",
+    "C. AsyncDR",
+    "D. NearSync"
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34119"
+  },
+  "text": "Which CVM service is responsible for providing storage to the hypervisor?",
+  "options": [
+    "A. Curator",
+    "B. Genesis",
+    "C. Zookeeper",
+    "D. Stargate"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3411a"
+  },
+  "text": "A prospective customer uses both Oracle and Microsoft products for critical applications. The prospect. prefers an all flash array over HCI, because they have made a recent, significant investment in physical servers for their Oracle environment to save on licensing costs. Which feature should be discussed to address this objection?",
+  "options": [
+    "A. VM Flash Mode",
+    "B. AHV",
+    "C. Volumes",
+    "D. Hyper-V support"
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3411b"
+  },
+  "text": "An SE needs to leverage Change Block Tracking when using Xtract to migrate VMs from ESXi to AHV.Which two source VM requirements should the SE verify? (Choose two)",
+  "options": [
+    "A. VMware Tools installed",
+    "B. Nutanix Guest Tools installed.",
+    "C. Minimum guest OS version",
+    "D. Virtual hardware version"
+  ],
+  "answers": "\nCorrect Answer: B,C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3411c"
+  },
+  "text": "A systems engineer sizers an environment based on the customer's requirement of N+2 resiliency for the entire cluster. In which two ways could the configuration be changed to meet the customer's requirements ? (Choose Two)",
+  "options": [
+    "A. Increase the number of Nodes",
+    "B. Increase the RAM capacity per Node",
+    "C. Increase the SSD capacity per Node",
+    "D. Increase the CPU capacity per Node"
+  ],
+  "answers": "\nCorrect Answer: B,C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3411d"
+  },
+  "text": "What are two things that the ADS service does for VMs within AHV? (Choose two.)",
+  "options": [
+    "A. Invoke workload movement if there is contention of resources.",
+    "B. Invoke workload movement when there is no contention of resource",
+    "C. Balance VMs throughout the Cluster when the VM is first powered on",
+    "D. Re-balance powered-on VMs evenly throughout the cluster"
+  ],
+  "answers": "\nCorrect Answer: A,C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3411e"
+  },
+  "text": "During an initial meeting with a prospect the storage administrator learns that Nutanix does not use RAID for application data. The prospect's storage array is configured with RAID 10 and the full capacity of the array is required. As a result no hot spares have been allocated. The storage administrator must respond immediately to any disk failures, even outside standard business hours.Which aspect of Nutanix replication factor (RF) will reduce the storage administrator's break/fix burden?",
+  "options": [
+    "A. Distribution of multiple copies of data across various nodes in a cluster",
+    "B. Checksumming for data integrity",
+    "C. Automatic data re-protection using available cluster capacity",
+    "D. Block awareness"
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3411f"
+  },
+  "text": "Refer to the exhibit.Based on the Sizing scenario, what level of resiliency can be inferred about the configuration?",
+  "options": [
+    "A. N+0",
+    "B. RF3",
+    "C. N+2",
+    "D. N+1"
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34120"
+  },
+  "text": "A prospect that is currently virtualized using Dell servers is willing to provide a Live Optics report to assist with sizing a partial infrastructure refresh with Nutanix.Which two items from an approach for sampling accurate sizing data with Live Optics? (Choose one)",
+  "options": [
+    "A. 24-hour windows during any period",
+    "B. 12-hour windows during any period",
+    "C. 24-hour windows during a period of peak utilization",
+    "D. 12-hour windows during a period of peak utilization"
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34121"
+  },
+  "text": "A prospective customer wants to migrate database workloads to Nutanix. They are currently running these workloads on a 3-tier vSphere architecture made up of 5 hosts connected to a hybrid SAN over 10G iSCSI.The hosts each have 256G RAM and 2 Broadwell 2.8Ghz 12 core processors. The largest database VM is configured with 64G of memory. Some databases are fairly old and single threaded Current performance is deemed acceptable. Which configuration component is most important to maintain the customer experience on a new Nutanix cluster and minimize costs ?",
+  "options": [
+    "A. Make sure the cluster uses similar speed processors regardless of generation",
+    "B. Make sure the cluster is all flash to speed up data access.",
+    "C. Make sure the cluster uses 25G nics to speed up the network",
+    "D. Make sure the cluster uses 512G per host to protect NUMA boundaries."
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34122"
+  },
+  "text": "What is an important consideration when using RVTools output for sizing a solution?",
+  "options": [
+    "A. It only captures provisioned storage.",
+    "B. It is a point in time snapshot of the environment.",
+    "C. Only powered on VMs are included in the data.",
+    "D. No infomation on the physical hosts is collected."
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34123"
+  },
+  "text": "A VP of Applications at a prospective customer is working to transform IT from a cost center to a business enabler. In order to address this initiative the VP has identified the following areas for improvement* Increased time and expenses related to meeting business deliverables* Missed market opportunity due to slow IT response time* Shadow It increases risk of security breaches and brand damage* Unplanned spend on public cloud services (AWS)What two key benefits should the SE review to address the customer's challenges? (Choose two)",
+  "options": [
+    "A. Provide developers with a native and integrated Self Service Portal that can scale on demand",
+    "B. Deliver an on-premises solution with an out-of-the-box cloud like experience.",
+    "C. Provide a hardened and secured solution that can inherently block Shadow IT.",
+    "D. Deliver enhanced performance for resource intensive applications."
+  ],
+  "answers": "\nCorrect Answer: A,C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34124"
+  },
+  "text": "A prospects main goal are to replace their mainframe environment, cut their datacenter footprint, and improve disaster recovery for mission critical applications.Which collection of documents should the SE use to show the prospect how Nutanix can help them reach their goals?",
+  "options": [
+    "A. Nutanix Bible.",
+    "B. Best Practices Guide.",
+    "C. Knowledge Base Articles.",
+    "D. Case Studies."
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34125"
+  },
+  "text": "An administrator needs to make sure an RF2 cluster can survive a complete rack failure without negatively effecting workload performance. The current cluster configuration consists of the following:* 30 nodes: distributed 10 nodes per rack across three 42U rack* Each nodes is configured with 40TB usable storage all flash (Cluster Total 1.2 PB Usable)* Current cluster utilization is 900TB storageWhich configuration changes should be made to make sure that the cluster meets the requirements?",
+  "options": [
+    "A. Expanse the cluster by adding 9 nodes to a new 42U rack",
+    "B. Expanse the cluster by adding 3 additional nodes per rack, 9 nodes total.",
+    "C. Expanse the cluster by adding 8 nodes to a new 42U rack",
+    "D. Expanse the cluster by adding 2 additional nodes per rack, 6 nodes total."
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34126"
+  },
+  "text": "A customer has a requirement to run a single instance Oracle Database VM on AHV that is driving over 250,000 IOPs. Which AOS feature should be positioned to deliver the highest level of performance?",
+  "options": [
+    "A. App Mobility Fabric",
+    "B. Shadow Clones",
+    "C. Volume Group Load Balancer",
+    "D. Data Locality"
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34127"
+  },
+  "text": "What are two key Nutanix value propositions? (Choose two)",
+  "options": [
+    "A. Rapid time to value",
+    "B. One-Click Infrastructure Management",
+    "C. Highest performance across all workload types",
+    "D. Lowest initial cost than a comparable competitive HCI or 3-tier solution"
+  ],
+  "answers": "\nCorrect Answer: B,C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34128"
+  },
+  "text": "What information can be gathered about the configuration of the VM storage?",
+  "options": [
+    "A. Storage capacity is a problem",
+    "B. Majority or VMs are Thin Provisioned",
+    "C. VMs have may disks",
+    "D. Total disk usage is high"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34129"
+  },
+  "text": "Where are Leap Availability Zones configured?",
+  "options": [
+    "A. Cloud Connect",
+    "B. Controller VM",
+    "C. Prism Element",
+    "D. Prism Central"
+  ],
+  "answers": "\nCorrect Answer: D\nExplanationTerminology* Availability Zone - it is represented by all resources (Nutanix Clusters) connected to Prism Central or Xi Leap Availability zone. Depends on the architecture, Availability zone can represent geographic territory, datacenter or server room in the datacenter. Protection policies - in protection policies you set up (RPO, Retention), rules to auto-apply policies to virtual machineshttps://vmwaremine.com/2019/02/08/nutanix-leap-runbooks-part-1/#sthash.VwrzSzhQ.dpbs\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3412a"
+  },
+  "text": "One of a prospective customer's security analysts asks about Nutanix's security functionality. The security analyst asks if Nutanix has any feature or capability that reduces the effort required to assess the security with in the Nutanix infrastructure. Which benefit does Nutanix SCMA provide to this prospect?",
+  "options": [
+    "A. Notifies the customer of newly discovered/announced vulnerabilities",
+    "B. Enables One-Click remediation of non-compliant security settings",
+    "C. Automatically updates/patches cluster components to the latest code levels",
+    "D. Automates security compliance checking and remediation"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3412b"
+  },
+  "text": "A prospects storage administrator is concerned about deploying Nutanix for their vSphere server virtualization environment due to anticipated increase to the data retention for compliance purpose and associated costs.Which Nutanix feature should an SE discuss to convince the prospect to move forward?",
+  "options": [
+    "A. Linear scalability by adding more nodes.",
+    "B. Extending storage container with existing SAN storage.",
+    "C. Acropolis Block Services.",
+    "D. Adding storage only nodes."
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3412c"
+  },
+  "text": "Refer to Exhibit.When entering a Raw Input workload into Sizer, what amount of RAM should be used for the entire workload?",
+  "options": [
+    "A. 32GB",
+    "B. 64GB",
+    "C. 48GB",
+    "D. 42GB"
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3412d"
+  },
+  "text": "Refer to the exhibit.A prospect provides the data shown captured from their existing environment using RVTools. The prospect has additional historical CPU utilization data that indicates peak CPU utilization never exceeds 50% on either physical host.Which vCPU:pCore ratio should be used in Sizer?",
+  "options": [
+    "A. 3:1",
+    "B. 4:1",
+    "C. 2:1",
+    "D. 5:1"
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3412e"
+  },
+  "text": "Which function does the Curator service perform?",
+  "options": [
+    "A. Schedules snapshots",
+    "B. Distributes storage optimization tasks",
+    "C. Stores cluster configuration",
+    "D. Start and stops other cluster services"
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3412f"
+  },
+  "text": "A customer has a requirement to run a single instance Oracle Database VM on AHV that is driving over250,000 IOPs. Which AOS feature should be positioned to deliver the highest level of performance?",
+  "options": [
+    "A. Volume Group Load Balancer",
+    "B. App Mobility Fabric",
+    "C. Shadow Clones",
+    "D. Data Locality"
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34130"
+  },
+  "text": "A systems engineer is sizing a configuration for a cluster that needs to tolerate up to 2 simultaneous disk failures across different nodes. What is the minimum number of nodes required?",
+  "options": [
+    "A. 6",
+    "B. 4",
+    "C. 3",
+    "D. 5"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34131"
+  },
+  "text": "A prospects need to refresh their environment but has a very small budget for the project. Four years after their last infrastructure refresh, the prospect's datacenter is only running at 40% utilization. In addition, they have 25 satellite offices. Each office has a requirement to run 4 to 6 VM's locally.Which two Nutanix platform capabilities should the SE highlight to address the prospect's concerns? (Choose two)",
+  "options": [
+    "A. Software only.",
+    "B. Pay as you grow.",
+    "C. Multi-Site Management.",
+    "D. Automated data storage tiering.",
+    "E. Single node backup."
+  ],
+  "answers": "\nCorrect Answer: B,C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34132"
+  },
+  "text": "A customer recently deployed Nutanix for VDI workloads and determine AFS is suitable for their departmental shares. They ask about infrastructure requirements providing the following file workloads specifics:* 11.8 TB of data.* 360000 files.* 2400 Users.* 800 shares.Based on the exhibit,which criteria shared by customer supports the requirement of additional nodes?",
+  "options": [
+    "A. 2400 Users.",
+    "B. 11.8 TB of data.",
+    "C. 800 shares.",
+    "D. 360000 files."
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34133"
+  },
+  "text": "ABC Corp currently has 50 VMs currently running in production and is interested in sizing a DR cluster. The RTO is 4 hours and the RPO is 2 hours .Each VM has 100GB of data, with a 5% daily change rate .for retention the customer wants to keep 2 weeks of snaps on the DR cluster.What is the minimum amount of storage capacity for the remote cluster to meet the customer's data retention",
+  "options": [
+    "A. 8TB to 9TB",
+    "B. 10TB to 11TB",
+    "C. 14TB to 15T",
+    "D. 6TB to 7TB"
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34134"
+  },
+  "text": "A customers current AHV cluster for mixed server workloads consists of 7 NX-3060-G6 nodes with Intel Skylake processors spread across two blocks. Growing demand for resources requires the customer to order three additional NX-3060 G7 nodes with Intel Cascade Lake processors.Which supported approach allows the customer the most efficient use of their additional resources?",
+  "options": [
+    "A. Expand the cluster by fully populating the existing blocks with the three additional nodes.",
+    "B. Expand the editing cluster by adding a new block populated with the three additional nodes",
+    "C. Create a new cluster using a new block populated by the three additional nodes.",
+    "D. Expand the cluster by fully populating the existing blocks, and adding a new block populated with two nodes."
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34135"
+  },
+  "text": "Which method can be used to migrate a VM configured for UEFI-boot from a Nutanix Hyper-V cluster to AHV?",
+  "options": [
+    "A. Cloud Connect",
+    "B. Storage vMotion",
+    "C. Live Migration",
+    "D. Nutanix Move"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34136"
+  },
+  "text": "A healthcare prospect looking to refresh their infrastructure with Nutanix has an initiative to migrate 5 petabytes of unstructured, archived patient data.Which Nutanix product should be the focus of the discussion?",
+  "options": [
+    "A. Mine",
+    "B. Volumes",
+    "C. Objects",
+    "D. Files"
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34137"
+  },
+  "text": "A prospect has 8500GB of capacity provisioned for a non-production VMware cluster As part of migrating to Nutanix the prospedage to convert any thick provisioned disks to thin provisioned disks. Based on additional data, the total active working set for the duster has been determined to be 1TB.When entering the Raw Input workload into Sizer, what is the minimum amount of HDD Capacity required for the workload?",
+  "options": [
+    "A. 4.0 TiB",
+    "B. 3.0 TiB",
+    "C. 3.5 TiB",
+    "D. 7.5 TiB"
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34138"
+  },
+  "text": "How should an administrator correct an SSL error when connecting to a Nutanix cluster?",
+  "options": [
+    "A. Add the SSL certificate to the workstation's trusted people store",
+    "B. Add the SSL certificate to an AD group policy applied to all computer objects",
+    "C. Create a new SSL certificate for the cluster signed by an AD certificate authority",
+    "D. Create a new self-signed certificate for the cluster with a 4096 bit key"
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34139"
+  },
+  "text": "An administrator is migrating ESXi VMs to a Nutanix AHV cluster. The VM data is available to the AHV system.Which process must the administrator complete below AHV VMs can be create?",
+  "options": [
+    "A. Import the VMs .vmx file using the Image Service",
+    "B. Rename the -flat.vmdk files for the VM based on the VM UUID",
+    "C. Import the VM's -flad.vmdk files using the Image Service",
+    "D. Import the VM's .nvram file using the Image Service"
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3413a"
+  },
+  "text": "AN SE determines that a POC is necessary to overcome competitive FUD in an opportunity with an Enterprise account evaluating several HCI solutions. The customer will evaluate three solutions in their datacenter simultaneously over the course of 4 days.The customer schedules all necessary personnel to be available during this time.Which two network planning items should the SE determine prior to allocation hardware for the POC? (Choose two)",
+  "options": [
+    "A. CVM and hypervisor IP address",
+    "B. TOR switch redundancy configuration",
+    "C. VLAN tags",
+    "D. Source and number of cables",
+    "E. Switch port type"
+  ],
+  "answers": "\nCorrect Answer: D,E\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3413b"
+  },
+  "text": "A customer has deployed Nutanix with Esxi for VDI workloads and is considering Nutanix for a major server virtualization project. The customer is running z/Virtual Machine today for a mission critical workload and would like to consider Nutanix as a potential platform.Which reason would currently disqualify this prospect as an opportunity?",
+  "options": [
+    "A. Accurate sizing information is not available",
+    "B. There is no assurance of project progression yet.",
+    "C. New hardware will be announced next quarter.",
+    "D. Nutanix does not support z/OS or z/VM"
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3413c"
+  },
+  "text": "An administrator needs to relocate an AHV cluster to a new datacenter during a maintenance windows. The cluster will use the same IPs in the new datacenter.Which two steps should be taken to prepare for this task? (Choose Two)",
+  "options": [
+    "A. Reconfigure IPMI for the new datacenter.",
+    "B. Shut down all user VMs in the cluster",
+    "C. Relocate the linked LDAP server",
+    "D. Stop all Nutanix Files clusters"
+  ],
+  "answers": "\nCorrect Answer: B,D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3413d"
+  },
+  "text": "Which two capabilities does IPAM provide in a Nutanix networking configuration? (Choose two.)",
+  "options": [
+    "A. Allows proxy server settings to be set up for a defined network",
+    "B. Allows AHV to assign IP addresses automatically to VMs using DHCP",
+    "C. Configures firewall rules to prevent or allow certain TCP/IP traffic",
+    "D. Configures a VLAN with an IP subnet and assigns a group of IP addresses"
+  ],
+  "answers": "\nCorrect Answer: B,D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3413e"
+  },
+  "text": "Refer to Exhibit:An administrator logs in to Prism and sees the status shown in the exhibit within the Hardware Diagram section.What should the administrator do?",
+  "options": [
+    "A. Restart all CVMs for the cluster to check, confirm health and repartition and add the disks.",
+    "B. Resolve all alerts and re-import the disks to make sure there is no service disruption.",
+    "C. Check status of applications running on the cluster and call support.",
+    "D. Reseat all disk immediately. If this does not help, reseat the nodes."
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3413f"
+  },
+  "text": "Refer to Exhibit.An administrator increases the cluster RF to 3. The containers are not modified.What will the new values in the data resiliency dashboard be for FAILURES TOLERABLE for the Zookeeper and Extent Groups components?",
+  "options": [
+    "A. Zookeeper = 2 and Extent Groups = 1",
+    "B. Zookeeper = 2 and Extent Groups = 2",
+    "C. Zookeeper = 1 and Extent Groups = 1",
+    "D. Zookeeper = 1 and Extent Groups = 2"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34140"
+  },
+  "text": "A prospective customer is concerned about the suitability and design of using Nutanix for an upcoming Avaya IP Office migration. Which type of document should the systems engineer (SE) Provide?",
+  "options": [
+    "A. Knowledge Base Article",
+    "B. Best Practice Guide",
+    "C. Field Advisory",
+    "D. Reference Architecture"
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34141"
+  },
+  "text": "A customer is asking for a quote for a hybrid cluster to run general purpose VMs and an ERP application containing a 500GB database. The customer has a VSAN ReadyNode quote already and looking for a comparable Nutanix solution. They share the following specifications3 hosts2 x E5-2640v4 CPU512GB RAM1 x 480GB SSD2 x 8TB HDD2 x 1GB NICWhich two aspects of the requested configuration should cause concern and need for further discovery? (Choose two.)",
+  "options": [
+    "A. 1 x 480GB SSD",
+    "B. 2 x 8TB HDD",
+    "C. 2 x E5-2640v4 CPU",
+    "D. 512GB RAM",
+    "E. 2 x 1GB NIC"
+  ],
+  "answers": "\nCorrect Answer: A,E\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34142"
+  },
+  "text": "A prospective customer provides the data shown captured from their existing environment using RVTools. The prospect has additional historical CPU utilization data that indicates peak CPU utilization never exceeds 50% on either physical host, but they want to keep their current vCPU:pCore ratio Based on the data provided, which vCPU:pCore ratio should be used for the Raw Input workload in Sizes?",
+  "options": [
+    "A. 2:1",
+    "B. 3:1",
+    "C. 5:1",
+    "D. 4:1"
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34143"
+  },
+  "text": "An existing customer wants to upgrade their non-AHV hypervisor to the most recent version. The customer needs confirm that the hypervisor is supported on their AOS version. Where on the Support Portal is this information located?",
+  "options": [
+    "A. Upgrade Paths",
+    "B. Field Advisories",
+    "C. Compatibility Matrix",
+    "D. EOL, Information"
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34144"
+  },
+  "text": "A prospective customer wants to migrate database workloads to Nutanix. They are currently running these workloads on a 3-tier vSphere architecture made up of 5 hosts connected to a hybrid SAN over 10G iSCSI. The hosts each have 256G RAM and 2 Broadwell 2.8Ghz 12 core processors. The largest database VM is configured with 64G of memory. Some databases are fairly old and single threaded Current performance is deemed acceptable. Which configuration component is most important to maintain the customer experience on a new Nutanix cluster and minimize costs ?",
+  "options": [
+    "A. Make sure the cluster is all flash to speed up data access.",
+    "B. Make sure the cluster uses similar speed processors regardless of generation",
+    "C. Make sure the cluster uses 25G nics to speed up the network",
+    "D. Make sure the cluster uses 512G per host to protect NUMA boundaries."
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34145"
+  },
+  "text": "Using the Sizing Options shown, which two configurations are possible configurations that Sizer could provide in Automatic mode? (Choose two)",
+  "options": [
+    "A. 4x NX-10755-67 (4x 3.84TB SSDs per node) + 4x NX-8035-G7 (6x 3.84TB SSD per node)",
+    "B. 5x NX-3060-G7 (6x 1920GB SSDs per node)",
+    "C. 6x NX-8055-67 (2 x 7.68TB SSD + 10x 6TB HDD per node)",
+    "D. 3x NDX-3060-G7 (2x 1920GB SSDs per node) + 3x NX-1075S-G7 (4x 3.84TB SSDs per node)"
+  ],
+  "answers": "\nCorrect Answer: B,D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34146"
+  },
+  "text": "An SE and a prospect decide on a specific node configuration. The SE changes the Sizer scenario from Automatic to manual mode to select the exact configuration decided with the prospect.What additional detail should the SE now consider in the Sizing scenario?",
+  "options": [
+    "A. N + 1 availability.",
+    "B. CVM Memory overhead.",
+    "C. Curator Capacity.",
+    "D. Block Awareness."
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34147"
+  },
+  "text": "During an initial discussion. a prospective customer indicates they are strongly considering vSAN for their HCI initiative. The prospect's workloads are mostly read-intensive and they have over 1PB of archival data.The prospect expects to save on costs using storage efficiencies that their existing platform does not support.Which two Nutanix differentiators should the systems engineer discuss? (Choose two.)",
+  "options": [
+    "A. Volume Group Load Balancing",
+    "B. Data Locality",
+    "C. CVM Autopathing",
+    "D. Compression on Hybrid Nodes"
+  ],
+  "answers": "\nCorrect Answer: B,D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34148"
+  },
+  "text": "A customer asks for a quote for a hybrid cluster to run general purpose VMs and an ERP application. The customer has a vSAN ReadyNode quote already and is looking for a comparable Nutanix solution. They share the following bill of materials: 3 Hosts , 2x E5-2640v4 CPUs , 512GB RAM , 1 x 480GB SSD , 2 x 8TB HDD, 2 x 1GB NIC What are two reasons to avoid sizing to match a competitor's bill of materials ? (Choose two)",
+  "options": [
+    "A. There is no visibility to the actual customer requirement",
+    "B. Nutanix Collector is better at capturing the metrics needed",
+    "C. The assumptions made in the competitor's sizing cannot be determined.",
+    "D. Sizing data from the competition was shared."
+  ],
+  "answers": "\nCorrect Answer: A,C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34149"
+  },
+  "text": "With in RVtools output, which tab provides actual utilization information on thick provisioned disk?",
+  "options": [
+    "A. vInfo",
+    "B. vCenter",
+    "C. vPartition",
+    "D. vDisk"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3414a"
+  },
+  "text": "A prospect customer's expected workload consists of the following: 110 vCPU 512GB RAM * 500TB Storage They need a solution to help decrease storage costs. The majority of their storage requirements come from an imaging application that stores scanned JPEG images. Which two Nutanix capabilities should be leveraged?(Choose two.)",
+  "options": [
+    "A. Compression",
+    "B. Capacity Tier Deduplication",
+    "C. Storage-Only Nodes",
+    "D. Erasure Coding"
+  ],
+  "answers": "\nCorrect Answer: C,D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3414b"
+  },
+  "text": "A prospect facing an upcoming Vmware ELA renewal has a management directive to move to the public cloud due to perceived cost savings. Their virtualization team is currently struggling with refactoring applications for AWS. As a result, the virtualization team is pushing to evaluate VXRail and renew their VMware ELA.Which two aspects of Nutanix shoud the SE Highlight? (Choose two)",
+  "options": [
+    "A. Nutanix AHV",
+    "B. Cloud Connect",
+    "C. Nutanix Calm",
+    "D. Multi-cluster Management5. Multi-hypervisor Support"
+  ],
+  "answers": "\nCorrect Answer: A,C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3414c"
+  },
+  "text": "Refer to the exhibit.Assuming a prospect is currently using Thick Provisioned virtual disk, at a minimum, which two tabs should be evaluated in an RVTools report to determine required resources for sizing? (Choose two.)",
+  "options": [
+    "A. vCluster",
+    "B. vNetwork",
+    "C. vDisk",
+    "D. vPartition",
+    "E. vInfo"
+  ],
+  "answers": "\nCorrect Answer: D,E\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3414d"
+  },
+  "text": "During a sales motion with a new prospect, the prospect and SE agree to evaluate Nutanix and a computing platform using XRay.The prospect is currently using 3-tier architecture and considering Nutanix and HPE Simplivity.Which two details must be discussed with the prospect before the POC starts? (Choose two)",
+  "options": [
+    "A. A test plan with agreed upon success criteria",
+    "B. Model of Fibre Channel switch",
+    "C. Gather details of customer's existing 3-tier hardware",
+    "D. What type of external storage will be connected",
+    "E. ldentify appropriate POC hardware"
+  ],
+  "answers": "\nCorrect Answer: A,E\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3414e"
+  },
+  "text": "A prospect's storage administrator is concerned about deploying Nutanix for their vSphere server virtualization environment due to anticipated increases to data retention for compliance purposes and associated costs.Which Nutanix feature should an SE discuss to convince the prospect tomove forward?",
+  "options": [
+    "A. Adding Storage Only nodes",
+    "B. Extending storage container with existing SAN storage",
+    "C. Linear scalability by adding more nodes",
+    "D. Acropolis Block Services"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3414f"
+  },
+  "text": "An SE builds a sizer scenario for a prospect's remote site running on an NX-1365S-G5.Using only the sizer BOM. which two actions can be performed? (Choose two.)",
+  "options": [
+    "A. Review power consumption requirements",
+    "B. Review budgetary pricing",
+    "C. Reference the HCL for additional SKUs relevant to the configuration",
+    "D. Review applicable discounts from deal registration",
+    "E. Review workload sizing details"
+  ],
+  "answers": "\nCorrect Answer: C,E\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34150"
+  },
+  "text": "A customer who uses Nutanix for mission critical workloads is considering migrating public cloud workloads to Nutanix. The customer has experienced difficulty auditing where applications reside and understanding cloud costs on a per application basis.Which Nutanix product should be discussed to address the customer'sneeds?",
+  "options": [
+    "A. Prism Pro",
+    "B. Calm",
+    "C. Xi",
+    "D. Beam"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34151"
+  },
+  "text": "A systems engineer sizers an environment based on the customer's requirement of N+2 resiliency for the entire cluster. In which two ways could the configuration be changed to meet the customer's requirements ? (Choose Two)",
+  "options": [
+    "A. Increase the CPU capacity per Node",
+    "B. Increase the number of Nodes",
+    "C. Increase the SSD capacity per Node",
+    "D. Increase the RAM capacity per Node"
+  ],
+  "answers": "\nCorrect Answer: B,D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34152"
+  },
+  "text": "Which two items are considered by Sizer when calculating the required cluster resources with only the Raw input workload type for a multi-VM workload? (Choose two)",
+  "options": [
+    "A. The required RAM for the CVM",
+    "B. The vCPU:pCore ratio applied for specific VMs",
+    "C. Large VM NUMA requirements",
+    "D. The vCPU:pCore ratio applied to all VMs"
+  ],
+  "answers": "\nCorrect Answer: A,D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34153"
+  },
+  "text": "An SE is performing a sizing exercise for a large financial institution.They plan to move 8000 VMs to Nutanix AHV manage those clusters using Prism Central.Which sizing configuration should the SE use for each Prism Central VM?",
+  "options": [
+    "A. 4 vCPU / 16gig MEM /500 gig Storage",
+    "B. 2 vCPU / 8gig MEM /200 gig Storage",
+    "C. 10 vCPU / 48gig MEM /3500 gig Storage",
+    "D. 8 vCPU / 32gig MEM /2500 gig Storage"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34154"
+  },
+  "text": "A VOI environment based on AHV Cluster is not performing well. The current environment is using only one bridge (BridgeO). An administrator need to verify if nodes are using all network card associated to BridgeO.Which two menus should be used to check the current configuration? (Choose two.)",
+  "options": [
+    "A. 1.0 Metrics tab VM menu",
+    "B. Host NICs tab in Hardware menu",
+    "C. Host view in Network menu",
+    "D. Network Configuration item in Setting menu"
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34155"
+  },
+  "text": "An It Manager is struggling to keep up with the ever-increasing demands from the business to provide services more quickdy. The main problem relates to the existing architecture and a mix of vendors who are slow to release updates to their products Which core facet of WebScale architecture should the Nutanix systems engineer discuss?",
+  "options": [
+    "A. Enterprise class features",
+    "B. Rich analytics",
+    "C. One Click upgrades",
+    "D. Continuous innovation"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34156"
+  },
+  "text": "A customer needs to image nodes that are either bare metal or require a different hypervisor. Which Nutanix tool should be used?",
+  "options": [
+    "A. Prism Central",
+    "B. Era",
+    "C. Move",
+    "D. Foundation"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34157"
+  },
+  "text": "During a sales motion with a new prospect, the prospect asks to do a POC so they can experience Nutanix in their environment.What is the most important item the SE must have in place with the prospect before moving forward with a POC?",
+  "options": [
+    "A. Number of Nodes/Block to be used during the POC",
+    "B. Start date of the POC",
+    "C. Defined and measurable success criteria",
+    "D. Meeting frequency"
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34158"
+  },
+  "text": "An online retailer currently supports over 200 separate PostgreSQL database instances, often with more than10 copies of each Individual database. Their Database Administrators have scripted much of the deployment process for creating dev/test copies, but dies infrastructure team struggles to keep up with storage capacity demands.Which Nutanix product should the systems engineer position?",
+  "options": [
+    "A. Beeam",
+    "B. Calm",
+    "C. Era",
+    "D. Pro with the Advanced Replication Karbon"
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34159"
+  },
+  "text": "Which tool could be used to perform a sizing discovery in a general server virtualization environment running both VMware ESXi and Nutan AHV?",
+  "options": [
+    "A. AWR",
+    "B. MAP",
+    "C. Collector",
+    "D. RVTools"
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3415a"
+  },
+  "text": "A VDI environment based on AHV Cluster is not performing well. The current environment is using only one bridge (BridgeO). An administrator need to verify if nodes are using all network card associated to BridgeO.Which two menus should be used to check the current configuration? (Choose two.)",
+  "options": [
+    "A. 1.0 Metrics tab VM menu",
+    "B. Host view in Network menu",
+    "C. Host NICs tab in Hardware menu",
+    "D. Network Configuration item in Setting menu"
+  ],
+  "answers": "\nCorrect Answer: A,B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3415b"
+  },
+  "text": "An SE needs to size a new project that requires offsite backup but not remote disaster recovery. The prospect requires an RTO of 48 hours, RPO of 4 hours, and the ability to restore from the past 5days of backups. The prospect's data change rate is 1%.How should the SE configure Sizer for this scenario?",
+  "options": [
+    "A. Option C",
+    "B. Option B",
+    "C. Option A",
+    "D. Option D"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3415c"
+  },
+  "text": "An administrator knows that the disk in a cluster are out of date and a new firmware is available. For security reason, these cluster do not have access to the internet. Which two steps must be completed to update the firmware? (Choose two.)",
+  "options": [
+    "A. Download the dark site bundle and stage it on an internal webserver",
+    "B. Select Upgrade Software, then select disks and upload the updated firmware.",
+    "C. Configure LCM with a URL to access the firmware bundle.",
+    "D. Download the update firmware .tgz file from the Nutanix Portal."
+  ],
+  "answers": "\nCorrect Answer: B,D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3415d"
+  },
+  "text": "A customer intends to build out their VDI environment over a period of 18 months. They require a consistent user experience as their numbers grow. what element of the Nutanix WebScale architecture would a systems engineer discuss with them?",
+  "options": [
+    "A. All intelligence in software",
+    "B. Linear performance with predictable scaling",
+    "C. No single point of failure",
+    "D. Nutanix can run on multiple hardware vendor platforms"
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3415e"
+  },
+  "text": "A systems engineer (SE) is gathering requirements to size a hybrid cluster to replace a prospect's existing IT test and development environment The prospective customer has indicated the cluster contains no business critical applications and has provided the aggregate vCPU and RAM requirements of the existing cluster.Which two additional items does the SE require to size the cluster' (Choose two.)",
+  "options": [
+    "A. Virtual Switch Configuration",
+    "B. Storage Capacity",
+    "C. Working Data Set",
+    "D. Existing Drive Count"
+  ],
+  "answers": "\nCorrect Answer: B,C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3415f"
+  },
+  "text": "An administrator needs to move a Nutanix host from one cluster to another.Which step should the administrator take after evacuating VMs from the host to be moved?",
+  "options": [
+    "A. From the Task menu in Prism, select Cluster details, then un-check the host from the list",
+    "B. In Prism, highlight the host in the Hardware pane and select Remove Host",
+    "C. From the Task menu in Prism, select Licensing hen delete the host license.",
+    "D. In Prism, highlight the host in the Hardware pane and select Remove from Metadata Ring"
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34160"
+  },
+  "text": "An administrator is managing a highly active SQL workload that is writing I/Os in 2 MB chunks to a vDisk. The administrator wants to optimize capacity setting for the computer.Which storage optimization technology should the administration select to meet these requirement?",
+  "options": [
+    "A. Cache Deduplication",
+    "B. Capacity Deduplication",
+    "C. Erasure Coding",
+    "D. Compression"
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34161"
+  },
+  "text": "An administrator is managing multiple Windows and Linux VMs connected to Nutanix Volumes. The Linux VMs are experiencing intermittent connectivity issue. The Windows VMs do not experience the same issue. Which option should the administrator use to resolve this issue?",
+  "options": [
+    "A. Utilize a separate subnet for the Linux VMs",
+    "B. Set the SCSI timeout value to 60",
+    "C. Add additional disks to the Volume Group",
+    "D. Utilize Jumbo Frames"
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34162"
+  },
+  "text": "A customer recently deployed Nutanix for VDI workloads and determine AFS is suitable for their departmental shares. They ask about infrastructure requirements providing the following file workloads specifics:* 11.8 TB of data.* 360000 files.* 2400 Users.* 800 shares.Based on the exhibit,which criteria shared by customer supports the requirement of additional nodes?",
+  "options": [
+    "A. 2400 Users.",
+    "B. 360000 files.",
+    "C. 800 shares.",
+    "D. 11.8 TB of data."
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34163"
+  },
+  "text": "A System engineer (SE) is gathering requirements to size a hybrid cluster to replace a prospect's existing IT test and development environment. The prospective customer has indicated the cluster contains no business critical applications and has provided the aggregate vCPU and RAM requirements of the existing cluster. which two additional items does the SE require to size the cluster?(Choose two)",
+  "options": [
+    "A. Working Data Set",
+    "B. Storage Capacity",
+    "C. Virtual Switch Configuration",
+    "D. Existing Drive Count"
+  ],
+  "answers": "\nCorrect Answer: A,B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34164"
+  },
+  "text": "When using Nutanix Sizer, which solution does the Automatic sizing option provide?",
+  "options": [
+    "A. The lowest cost solution that meets the provided requirements.",
+    "B. A solution that meets provided requirements, plus a default 25% growth capacity",
+    "C. A solution that banlances cost and performance, plus a default 25% growth capacity",
+    "D. The highest performance solution that meets the provided requirements"
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34165"
+  },
+  "text": "An HA event occurs, which causes a SQL virtual machine to restart on a different node.What impact will this action have on Data Locality?",
+  "options": [
+    "A. VM data will remain as originally written and reads will occur across the network.",
+    "B. Automatic Data Active VM data will be localized.",
+    "C. All VM data will be simultaneously migrated as part of the VM migration.",
+    "D. Data on adjacent nodes will be localized."
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34166"
+  },
+  "text": "A two-node ROBO cluster is configured with a witness VM.What happens when Node A goes down?",
+  "options": [
+    "A. All operations and services on the Node B are shut down and go into a waiting state.",
+    "B. The cluster is unaffected and no administrator intervention is required.",
+    "C. The- cluster becomes unavailable and goes into read-only mode.",
+    "D. Node B sends a leadership request to the Witness VM and goes into single-node mode."
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34167"
+  },
+  "text": "Which two Citrix desktop creation capabilities are supported on Nutanix AHV? (Choose two)",
+  "options": [
+    "A. Provisioning Service",
+    "B. Composer",
+    "C. System Center Virtual Machine Manager",
+    "D. Machine Creation Services",
+    "E. Desktop Delivery Controller"
+  ],
+  "answers": "\nCorrect Answer: A,D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34168"
+  },
+  "text": "A customer previously purchased a Nutanix solution of nine NX-3060 G7 nodes. The customer asks for help to increase the resillency of their environment after power outages to individual racks in their datacenter.Their current soluction consists of two NX-3460-G7 blocks and a single NX-3160-G7 block placed in a single rack.What should the systems engineer recommend to this customer?",
+  "options": [
+    "A. Move one node from each NX-3460 block into the NX-3160 block. Spread the blocks over three racks and enable Rack Awareness.",
+    "B. Move one node from each NX-3460 block over to the NX-3160 blocks. Enable Block Awareness.",
+    "C. Buy one additional node and place it into the NX-3160 block, Spread the blocks over three racks. Ebable Rack Awareness.",
+    "D. Buy three additional NX-3060 upgrade nodes and place them into the NX-3160 block, Enable Rack Awareness."
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34169"
+  },
+  "text": "A prospect indicates a requirement to replicate data offsite for a production workload.Which three questions the SE ask about the prospect's requirement?(Choose three.)",
+  "options": [
+    "A. What is the WAN speed and latency between source and target sites?",
+    "B. Will Prism Pro be licensed for each cluster?",
+    "C. What are the retention requirements?",
+    "D. What OS will be deployed on the server VMs?",
+    "E. How much data needs to be replicated?"
+  ],
+  "answers": "\nCorrect Answer: A,C,E\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3416a"
+  },
+  "text": "A prospective customer is concerned about having a single-pane-of-glass manage their infrastructure because it also provides a single point of-failure How does the Nutanix Prism architecture address this concern?",
+  "options": [
+    "A. Prism is deployed in a 3-node HA configuration",
+    "B. Prism uses Linked Mode for HA",
+    "C. Prism is protected by RF2",
+    "D. Prism runs on every CVM."
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3416b"
+  },
+  "text": "An existing customer is considering deploying a new Splunk project onto their Nutanix infrastructure. The customer inquires about potential storage capacity saving for their splunk workload.Which two Nutanix capacity optimization features should the SE recommend? (Choose two)",
+  "options": [
+    "A. Capacity tier de-duplication.",
+    "B. Erasure coding.",
+    "C. Post-process compression.",
+    "D. Inline compression."
+  ],
+  "answers": "\nCorrect Answer: B,C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3416c"
+  },
+  "text": "Write I/O that is deemed sequential will enter which component of the Distributed Storage Fabric first?",
+  "options": [
+    "A. Cache",
+    "B. Extent store",
+    "C. Metadata Ring",
+    "D. Oplog"
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3416d"
+  },
+  "text": "A systems engineer is building a solution for a federal government prospect that requires FIPS 140-2 Level 2 encryption for data at rest.Which two items are required to deliver a solution that meets the encryption standard?(Choose two)",
+  "options": [
+    "A. A supported Key Management Server",
+    "B. Self-Encrypting Drives",
+    "C. Nutanix Software Encryption",
+    "D. Nutanix Prism Pro Licensing"
+  ],
+  "answers": "\nCorrect Answer: B,C\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3416e"
+  },
+  "text": "An SE is working with a financial institution prospect on a VDI environment refresh. The institution currently has 5000 named VDI users, with a peak of 2800 concurrent users.How many VDI VMs does the SE need to size for, factoring in an additional 10% for growth?",
+  "options": [
+    "A. 3080",
+    "B. 2880",
+    "C. 5500",
+    "D. 5000"
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e3416f"
+  },
+  "text": "Which three settings are required for network switch discovery in Prism? (Choose Three)",
+  "options": [
+    "A. AHV Host IP address",
+    "B. SNMP Community Name",
+    "C. SMTP Server IP address",
+    "D. Switch Management IP Address",
+    "E. Cluster CVM IP address"
+  ],
+  "answers": "\nCorrect Answer: A,B,D\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34170"
+  },
+  "text": "During a meeting with a fortune 100 prospect, an SE achieves technical buy-in from the architecture team. The prospect shares that their management recently attended an executive briefing with Cisco and was impressed by the vision presented.Management is pushing the arching the architecture tea to adopt Cisco as their HCI standard based on a beief that Nutanix is not a major player.Which resource should an SE highlight?",
+  "options": [
+    "A. Reference architectures",
+    "B. Garther magic Quadrant",
+    "C. ESG Performance Analysis",
+    "D. Net Promoter Score"
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62bd29ab0743ada5d9e34171"
+  },
+  "text": "A guest VM should be able to tolerate simultaneous failure of two nodes or drives.What are the minimum requirements for the Nutanix cluster?",
+  "options": [
+    "A. 3 nodes with cluster RF 3 and container RF 2",
+    "B. 5 nodes with cluster RF 3 and container RF 3",
+    "C. 5 nodes with cluster RF 2 and container RF 3",
+    "D. 3 nodes with cluster RF 3 and container RF 3"
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+}]
