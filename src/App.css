@@ -42,3 +42,13 @@
     transform: rotate(360deg);
   }
 }
+
+@media(max-width: 600px){
+  .App{
+    padding: 10px;
+  }
+
+  .question{
+    text-align: justify;
+  }
+}
