@@ -1364,4 +1364,88 @@
     "D. 3 nodes with cluster RF 3 and container RF 3"
   ],
   "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62cbc7858006a409860c736d"
+  },
+  "text": "in Files, how many FSVMs are deployed by default?",
+  "options": [
+    "A. 1",
+    "B. 2",
+    "C. 3",
+    "D. 5"
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62cbca8e8006a409860c736e"
+  },
+  "text": "A prospective customer's migration to their new SAN started six months ago and is still not complete. The VP of IT state the previous migration to the existing SAN took almost eight months to complete. How should the systems engineer describe Nutanix hardware refreshes to this prospective customer?",
+  "options": [
+    "A. New nodes can be added to an existing cluster. and then the old nodes can be removed.",
+    "B. Manual hardware refreshes take time, and the systems engineer understands the customer's current situation.",
+    "C. With AHV, vMotion between cluster occurs faster than on a SAN-based cluster.",
+    "D. Setting in AHV node's EVC mode is a very fast process that will shorten the upgrade time"
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62cbcb4a8006a409860c736f"
+  },
+  "text": "Oracle HCL for certified Joint Support with Nutanix has Oracle Linux and Oracle VM via iSCSI listed.\nWhat Nutanix feature is used by this certified Configuration.\n",
+  "options": [
+    "A. OSS.",
+    "B. AFS.",
+    "C. ACS.",
+    "D. ABS."
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62cbce918006a409860c7370"
+  },
+  "text": "Which type of data is distributed by Zookeeper to ensure availability in the case of node or block failure?",
+  "options": [
+    "A. User Data.",
+    "B. Metadata.",
+    "C. Configuration Data.",
+    "D. Snapshot Data."
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62cbcf998006a409860c7371"
+  },
+  "text": "Based on their current workload. a customer request the systems engineer to create a solution that does not exceed 80% CPU utilization when a node is placed in maintenance mode (N+0) When creating the Sizer Scenario in Automatic Mode, how can the systems engineer accomplish this?",
+  "options": [
+    "A. Customize the CPU threshold in the scenario's sizing options..",
+    "B. Use Customize to increase the CPU Core count until the CPU utilization is 80%.",
+    "C. Select a higher-end processor when defining the workload.",
+    "D. Modify the solution by adding compute only nodes to the cluster."
+  ],
+  "answers": "\nCorrect Answer: A\n\n"
+},{
+  "_id": {
+    "$oid": "62cbd0828006a409860c7372"
+  },
+  "text": "A prospective customer is evaluating solutions to support a project. The systems engineer proposes a hybrid model as recommended by Sizer. The prospect is concerned about the performance of a hybrid configuration and is evaluating an all flash array. Which two Nutanix features should be discussed to address the concerns of the prospective customer? (Choose two)",
+  "options": [
+    "A. AHV Turbo Mode",
+    "B. Data Locality.",
+    "C. Automatic Data Tiering.",
+    "D. Acropolis Dynamic Scheduler"
+  ],
+  "answers": "\nCorrect Answer: A, C\n\n"
+},{
+  "_id": {
+    "$oid": "62cbd1978006a409860c7373"
+  },
+  "text": "How will an HDD failure affect VMs with data on the failed device?",
+  "options": [
+    "A. The VMs will crash, and will be restarted once the failed HDD has been replaced and the data has been restored.\n\n",
+    "B. A live migration will be initiated, moving the affected VMs to a host that contains the replica data.",
+    "C. The VMs will remain operational on that host and continue to function normally with no noticeable impact.",
+    "D. An HA event will occur, causing the affected VMs to restart on a node that contains the replica data.\n"
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
 }]
