@@ -394,7 +394,7 @@
     "C. Make sure the cluster uses 25G nics to speed up the network",
     "D. Make sure the cluster uses 512G per host to protect NUMA boundaries."
   ],
-  "answers": "\nCorrect Answer: A\n\n"
+  "answers": "\nCorrect Answer: D\n\n"
 },{
   "_id": {
     "$oid": "62bd29ab0743ada5d9e34122"
