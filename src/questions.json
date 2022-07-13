@@ -1448,4 +1448,113 @@
     "D. An HA event will occur, causing the affected VMs to restart on a node that contains the replica data.\n"
   ],
   "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62cbd1978006a409860c7374"
+  },
+  "text": "A prospect provides sizing details for a new application that will require 15TiB of usable storage. The prospect needs to plan for an additional 20% storage growth as part of the initial purchase. Including capacity to fully re-protect in the event of a node failure, which configuration provides minimal cost while meeting the capacity requirement?",
+  "options": [
+    "A. Option A.",
+    "B. Option B.",
+    "C. Option C.",
+    "D. Option D."
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62cbd1978006a409860c7375"
+  },
+  "text": "An SE is working to size a prospects environment that includes production Oracle databases. Which Oracle output should the SE request from the prospect to collect accurate sizing information?",
+  "options": [
+    "A. STATSPACK.",
+    "B. Active Session History Report.",
+    "C. Oracle Export Schema.",
+    "D. Automatic Workload Repository Report."
+  ],
+  "answers": "\nCorrect Answer: D\n\n"
+},{
+  "_id": {
+    "$oid": "62cbd1978006a409860c7376"
+  },
+  "text": "A custormer's database administrator is concerned about restoring data locality for their VMs after they migrate during an AHV upgrade. Which feature that addresses the issue should the systems engineer highlight?",
+  "options": [
+    "A. All VM data is moved from the source to the destination node with the VM.",
+    "B. AHV's built-in scheduler automatically restores data locality.",
+    "C. Mirroring the database on two VMs eliminates the need for data locality.",
+    "D. Shadow clones mitigate the need for data locality."
+  ],
+  "answers": "\nCorrect Answer: B\n\n"
+},{
+  "_id": {
+    "$oid": "62cbd1978006a409860c7377"
+  },
+  "text": "An SE is performing workload discovery with an SMB prospect running SQL Server. The databases is less than 1 TB, but its performance and uptime are critical to the prospect's business operations. Sizer sugests using 1065S nodes.\n Which aspects of the NX-1065S-G5 would cause an SE to filter out that nodel from Sizer's Automatic configuration? (choose two.)",
+  "options": [
+    "A. Single Power Supply.",
+    "B. Limited to 4 nodes.",
+    "C. 1Gb Networking.",
+    "D. Single HDD.",
+    "E. Single Socket Processor"
+  ],
+  "answers": "\nCorrect Answer: C,E\n\n"
+},{
+  "_id": {
+    "$oid": "62cbd1978006a409860c7378"
+  },
+  "text": "A customer needs a tool packaged as a VM that uses realistic workloads paired with real-world test scenarios for HCI environments. The goal is to benchmark performance during typica! workflows and failure events. Which Nutanix tool meets these requirements?",
+  "options": [
+    "A. Foundation.",
+    "B. Move.",
+    "C. X-Ray.",
+    "D. Cluster Check."
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62cbd1978006a409860c7379"
+  },
+  "text": " A customer wants to decrease costs and increase efficiency by eliminating NAS silos and adopting a cloud-like mindset. Which Nutanix product meets these requirements?",
+  "options": [
+    "A. Nutanix Calm.",
+    "B. Nutanix Xi Frame.",
+    "C. Nutanix Files.",
+    "D. Nutanix Beam."
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62cbd1978006a409860c7380"
+  },
+  "text": "A customer previously purchased a Nutanix solution of nine NX-3060-G7 nodes. The customer asks for help to increase the resiliency of their environment after power outages to individual racks in their datacenter Their current solution consists of two NX-3460-G7 blocks and a single NX-3160-G7 block placed in a single rack. what should the systems engineer recommend to this customer ?",
+  "options": [
+    "A. Buy three additional NX-3060 Upgrade nodes and place them into the NX-3160 block Enable Rack Awareness.",
+    "B. Move on node from each NX=3460 block over to the NX-3160 blocks. Enable Block Awareness.",
+    "C. Move on node from each NX-3460 into the NX-3160 block. Spread the blocks over three racks and enable Rack Awareness.",
+    "D. Buy on additional node and place it, into the NX-3160 block. Spread the blocks over three racks. Enable Rack Awareness."
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62cbd1978006a409860c7381"
+  },
+  "text": " A customer plans to migrate a business critical, high transaction application to nutanix. Currently the application is running on a physical server with 256GB of RAM and 12 CPU cores at > 80% utilization. To run the VM on a single NUMA node, which processor configuration should the systems engineer recommend for this workload?",
+  "options": [
+    "A. CPUs (16 Cores each @ 2.8GHz), 32 Cores total.",
+    "B. CPUs (8 Cores each @ 1.8Ghz), 16 Cores total.",
+    "C. CPUs (10 Cores each @ 3.4Ghz), 20 Cores total.",
+    "D. CPUs (8 Cores each @ 2.1Ghz), 16 Cores total."
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
+},{
+  "_id": {
+    "$oid": "62cbd1978006a409860c7382"
+  },
+  "text": "For security reason an administrator needs to logically separate management and data traffic on Nutanix cluster.\n  Which feature should the administrator select for this configuration?",
+  "options": [
+    "A. Prism Central.",
+    "B. Network Virtualization.",
+    "C. Network Segmentation.",
+    "D. Microsegmentation."
+  ],
+  "answers": "\nCorrect Answer: C\n\n"
 }]
